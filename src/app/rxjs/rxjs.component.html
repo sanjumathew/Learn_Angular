@@ -1,0 +1,10 @@
+<h1>RXJS</h1>
+<h2>Observable:</h2>
+<button (click)="startObservable()">Start Observable</button>
+<button (click)="startSubject()">Start Subject</button>
+<button (click)="startReplaySubject()">Start Replay Subject</button>
+<button (click)="startBehaviorSubject()">Start Behavior Subject</button>
+<p>Values: </p>
+<ng-container *ngFor="let value of observableValues">
+    {{value}}<br>
+</ng-container>

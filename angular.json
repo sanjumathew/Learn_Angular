@@ -75,6 +75,7 @@
               "browserTarget": "Learn-Angular:build:production"
             },
             "development": {
+              "hmr": true,
               "browserTarget": "Learn-Angular:build:development"
             }
           },
